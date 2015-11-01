@@ -1,0 +1,35 @@
+extends templates/framework
+
+block title
+	title Barbershop
+
+block main-header
+
+	header.s-m-header
+		div.lay-m-header 
+			include ./templates/header-menu-block
+			include ./templates/user-block
+
+block main-content
+
+	article.s-m-content.lay-m-content
+		div
+			div.logo
+			include ./templates/features-block
+			
+			section.s-center-block
+				include ./templates/news-block
+				include ./templates/slide-block
+
+			section.s-center-block
+				include ./templates/contacts-block
+				include ./templates/check-in-block
+
+block main-footer
+
+	footer.s-m-footer
+		div.lay-m-footer 
+			include ./templates/address-block
+			include ./templates/social-block
+			include ./templates/copy-block
+

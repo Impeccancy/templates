@@ -1,0 +1,26 @@
+{
+  "name": "001",
+  "version": "1.0.0",
+  "description": "Barbershop template layout",
+  "main": "index.js",
+  "dependencies": {
+    "grunt": "^0.4.5"
+  },
+  "devDependencies": {
+    "autoprefixer-stylus": "^0.8.0",
+    "csso-stylus": "0.0.3",
+    "grunt-contrib-connect": "^0.11.2",
+    "grunt-contrib-imagemin": "^0.9.4",
+    "grunt-contrib-jade": "^0.15.0",
+    "grunt-contrib-stylus": "^0.22.0",
+    "grunt-contrib-watch": "^0.6.1",
+    "grunt-newer": "^1.1.1",
+    "load-grunt-tasks": "^3.3.0",
+    "normalize.css": "^3.0.3"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Artyom Kravchenko (Oopscurity)",
+  "license": "ISC"
+}

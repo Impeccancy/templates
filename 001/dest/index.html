@@ -1,0 +1,131 @@
+
+<!-- Created by Artyom Kravchenko (Oopscurity), 2015--><!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="utf-8">
+    <title>Barbershop</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=PT+Sans+Narrow:400,700&amp;subset=latin,cyrillic">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/common.css">
+  </head>
+  <body>
+    <header class="s-m-header">
+      <div class="lay-m-header"> 
+        <!-- begin header-menu-->
+        <nav class="m-header-menu">
+          <ul class="m-header-menu__list">
+            <li class="m-header-menu__item"><a href="" class="m-header-menu__link">Главная</a></li>
+            <li class="m-header-menu__item"><a href="" class="m-header-menu__link">Информация</a></li>
+            <li class="m-header-menu__item"><a href="" class="m-header-menu__link">Новости</a></li>
+            <li class="m-header-menu__item"><a href="" class="m-header-menu__link">Прайс-лист</a></li>
+            <li class="m-header-menu__item"><a href="" class="m-header-menu__link">Магазин</a></li>
+            <li class="m-header-menu__item"><a href="" class="m-header-menu__link">Контакты</a></li>
+          </ul>
+        </nav>
+        <!-- end header-menu -->
+        <!-- begin user-block -->
+        <div class="user-block"><a class="user-block__log-in">Вход</a></div>
+        <!-- end user-block -->
+      </div>
+    </header>
+    <article class="s-m-content lay-m-content">
+      <div>
+        <div class="logo"></div>
+        <!-- begin feature-block -->
+        <section class="feature-block">
+          <section class="feature-block__item">
+            <h3 class="feature-block-header">Быстро</h3>
+            <p class="feature-block-descripion">Мы делаем свою работу быстро! Два часа пролетят незаметно и вы — счастливый обладатель стильной стрижки-минутки!</p>
+          </section>
+          <section class="feature-block__item">
+            <h3 class="feature-block-header">Круто</h3>
+            <p class="feature-block-descripion">Забудьте, как вы стриглись раньше. Мы сделаем из вас звезду футбола или кино!</p>
+          </section>
+          <section class="feature-block__item">
+            <h3 class="feature-block-header">Дорого</h3>
+            <p class="feature-block-descripion">Наши мастера — профессионалы своего дела и не могут стоить дешево. К тому же, разве цена не дает определенный статус?</p>
+          </section>
+        </section>
+        <!-- end feature-block -->
+        <section class="s-center-block">
+          <!-- begin news-block -->
+          <section class="news-block">
+            <h2 class="section-header">Новости</h2>
+            <ul class="news-block__list">
+              <li class="news-block__item">
+                <p class="news-block__descr">Нам наконец завезли ягермайстер! Теперь вы можете пропустить стаканчик во время стрижки</p>
+                <time datetime="2013-09-25" class="news-block__time">25 сентября</time>
+              </li>
+              <li class="news-block__item">
+                <p class="news-block__descr">В нашеей команде пополнение, Борис "Бритва" Стригунец, обладатель множества титулов и наград,пополнил наши стройные ряды</p>
+                <time datetime="2013-09-19" class="news-block__time">19 сентября</time>
+              </li>
+            </ul><a href="" class="news-block__to-all">Все новости</a>
+          </section>
+          <!-- end news-block -->
+          <!-- begin slide-block -->
+          <section class="slide-block">
+            <h2 class="section-header">Фотогалерея</h2>
+            <div class="slide-block__img"></div>
+            <button class="slide-block__prev-btn">Назад</button>
+            <button class="slide-block__next-btn">Вперед</button>
+          </section>
+          <!-- end slide-block -->
+        </section>
+        <section class="s-center-block">
+          <!-- begin contacts-block -->
+          <section class="contacts-block">
+            <h2 class="section-header">Контактная информация</h2>
+            <p class="contacts-block__contacts">
+              Barbershop "Borodinski" <br>
+              Адрес: г. Москва, ул. Собаки Павлова, д. 13 <br>
+              Телефон: +7 (495) 666-02-666<br>
+            </p>
+            <p class="contacts-block__shedule">
+              Время работы: <br>
+              пн — пт: с 10:00 до 22:00 <br>
+              сб — вс: с 10:00 до 19:00
+            </p>
+          </section>
+          <!-- end contacts-block -->
+          <!-- begin check-in-block -->
+          <section class="check-in-block">
+            <h2 class="section-header">Записаться</h2>
+            <p class="check-in-block__descr">Укажите желаемую дату и время, и мы свяжемся с вами для подтверждения брони</p>
+            <form action="" method="post" class="check-in-block__form">
+              <input type="date" name="date-field" placeholder="Дата" class="check-in-block__field">
+              <input type="time" name="time-field" placeholder="Время" class="check-in-block__field">
+              <input type="text" name="name-field" placeholder="Ваше имя" class="check-in-block__field">
+              <input type="tel" name="tel-field" placeholder="Телефон" class="check-in-block__field">
+              <input type="submit" placeholder="Отправить" class="check-in-block__field">
+            </form>
+          </section>
+          <!-- end check-in-block -->
+        </section>
+      </div>
+    </article>
+    <footer class="s-m-footer">
+      <div class="lay-m-footer"> 
+        <!-- begin address -->
+        <section class="address">
+          <p class="address__text">
+            Barbershop "Borodinski" <br>
+            Адрес: г. Москва, ул. Собаки Павлова, д. 13 <br>
+            Телефон: +7 (495) 666-02-666
+          </p>
+        </section>
+        <!-- end address -->
+        <!-- begin social-->
+        <section class="social">
+          <p class="social__call">Давайте дружить!</p><a class="social__item social__item_vk"></a><a class="social__item social__item_fb"></a><a class="social__item social__item_inst"></a>
+        </section>
+        <!-- end social-->
+        <!-- begin copy-->
+        <section class="copy">
+          <p class="copy__descr">Дизайн сайта:</p><a href="http://glukhanko.ru" class="copy__link">Glukhanko.ru</a>
+        </section>
+        <!-- end copy -->
+      </div>
+    </footer>
+  </body>
+</html>
