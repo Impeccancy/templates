@@ -1,0 +1,56 @@
+html, body{
+	margin: 0px;
+	padding: 0px;
+}
+
+.page {
+	font-size: 14px;
+	line-height: 24px;
+	font-weight: 700;
+	text-transform: uppercase;
+	color: #fff;
+	min-width: 960px;
+	font-family: "PT Sans Narrow", sans-serif;
+	background: url("../img/tint.png") no-repeat center top, 
+	url("../img/fade.png") no-repeat center 800px,
+	url("../img/background.jpg") no-repeat center top;
+	background-color: black;
+}
+
+.header{
+	background-color: black;
+}
+
+.page__header{
+	margin-left: 60px;
+	margin-right: 60px;
+}
+
+.header__container{
+	width: 940px;
+	margin: 0 auto;
+	padding: 0 10px;
+}
+
+.content__container{
+	width: 940px;
+	margin: 0 auto;
+	padding: 0 10px;
+}
+
+.footer__container{
+	width: 940px;
+	margin: 0 auto;
+	padding: 0 10px;
+}
+
+.header{
+	margin-bottom: 60px;
+	background: black;
+}
+
+.clearfix:after{ 
+	content: "";
+	display: table;
+	clear: both;
+}
