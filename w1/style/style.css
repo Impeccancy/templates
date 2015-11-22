@@ -1,0 +1,138 @@
+html, body {
+	margin: 0px;
+	padding: 0px;
+}
+
+.page {
+	font-size: 14px;
+	line-height: 24px;
+	font-weight: 700;
+	text-transform: uppercase;
+	color: #fff;
+	min-width: 960px;
+	font-family: "PT Sans Narrow", sans-serif;
+	background: url("../img/tint.png") no-repeat center top, 
+	url("../img/fade.png") no-repeat center 800px,
+	url("../img/background.jpg") no-repeat center top;
+	background-color: black;
+}
+
+.header {
+	background-color: black;
+}
+
+.page__header {
+	margin-left: 60px;
+	margin-right: 60px;
+}
+
+.header__container {
+	width: 940px;
+	margin: 0 auto;
+	padding: 0 10px;
+}
+
+.content__container {
+	width: 940px;
+	margin: 0 auto;
+	padding: 0 10px;
+}
+
+.footer__container {
+	width: 940px;
+	margin: 0 auto;
+	padding: 0 10px;
+}
+
+.header {
+	margin-bottom: 60px;
+	background: black;
+}
+
+.clearfix:after { 
+	content: "";
+	display: table;
+	clear: both;
+}
+
+.menu header__menu {
+	float: left;
+	border: 3px dotted #fff
+	width:780px;
+}
+
+.user {
+	float: right;
+	border: 3px dotted #fff;
+	max-width: 140px;
+}
+
+.menu__list {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+
+.menu__item {
+	display: inline-block;
+	vertical-align: top;
+	font-size: 16px;
+	line-height: 20px;
+}
+
+.menu__link {
+	position: relative;
+	display: block;
+	padding: 25px 20px;
+	text-decoration: none;
+	color: #fff;	
+}
+
+.menu__link:hover {
+	background: #242424;
+}
+
+.menu__link_active {
+	position: relative;
+}
+
+.menu__link_active:hover {
+	background-color: none;
+}
+
+.menu__link_active:after {
+	content: "";
+	position: absolute;
+	bottom: 0;
+	left: 20px;
+	right: 20px;
+	height: 5px;
+	background: white;	
+}
+
+.user__login {
+	position: relative;
+	display: inline-block;
+	vertical-align: top;
+	padding: 25px 20px;
+	padding-left: 50px;
+	font-size: 16px;
+	line-height: 20px;
+	text-decoration: none;
+	color: #fff;
+}
+
+.user__login:hover {
+	background: #242424;
+}
+
+.user__login:before {
+	contain: "";
+	position: absolute;
+	top: 28px;
+	left: 20px;
+	width: 18px;
+	height: 18px;
+	outline: 5px solid red;
+	
+}
